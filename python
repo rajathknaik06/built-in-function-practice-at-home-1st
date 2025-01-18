@@ -1,0 +1,21 @@
+""" Ram is working on a program to manipulate strings. He wants to create a program that takes two strings as input, reverses the second string, and then concatenates it with the first string.
+
+
+
+Ram needs your help to design a program.
+
+Input format :
+The input consists of two strings in separate lines.
+
+Output format :
+The output displays a single line containing the concatenated string of the first string and the reversed second string.
+
+"""
+
+string1 = input()
+string2 = input()
+
+reversed_string2 = string2[::-1]
+result = string1 + reversed_string2
+
+print(result)
